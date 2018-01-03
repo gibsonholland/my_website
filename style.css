@@ -1,0 +1,173 @@
+body {
+	font-family: 'Raleway', Geneva, sans-serif;
+	background-color: hsl(0, 0%, 90%);
+
+}
+
+#banner {
+	background-image: url("https://farm5.staticflickr.com/4575/23993376377_140b78bcc3_k.jpg");
+	background-size: cover;
+	background-position: center center;
+	border: 2px solid hsl(210, 14%, 53%);
+	border-radius: 6px;
+	margin-bottom: 15px;
+	height: 500px;
+	width: 100%;
+}
+
+.greeting h1 {
+	border: 3px solid white;
+	border-radius: 6px;
+	top: 50px;
+	width: 300px;
+    position: relative;
+    margin: 0 auto;
+	
+}
+
+.navigation {
+	top: 70px;
+	padding: 5px;
+	width: 200px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.navigation a {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 250;
+	background: hsl(34, 78%, 91%);
+  	border: 1px solid hsl(182, 25%, 50%);
+  	border-radius: 4px;
+  	color: hsl(182, 25%, 50%);
+  	display: inline-block;
+  	padding: 5px;
+  	text-decoration: none;
+}
+
+.navigation a:hover {
+	background: white;
+  	border: 1px solid hsl(0, 75%, 72%);
+  	color: hsl(0, 75%, 72%);
+
+}
+
+#media {
+	height: 600px;
+	width: 100%;
+	overflow: scroll;
+}
+
+h1 {
+	color: white;
+	font-size: 75px;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+#main {
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background-color: white;
+	border: 2px solid hsl(210, 14%, 53%);
+	border-radius: 6px;
+	height: 400px;
+	overflow: scroll;
+	width: 400px;
+}
+
+#blurb h2 {
+	color: white;
+	border-top: 1px solid hsl(210, 14%, 45%);
+	border-bottom: 1px solid hsl(210, 14%, 45%);
+	text-align: center;
+	background-color: hsl(182, 25%, 70%);
+	margin: 0 auto 15px;
+	width: 400px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+p {
+	color: hsl(182, 25%, 50%);
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: 100;
+	padding: 10px;
+}
+
+.byline {
+	color: hsl(182, 25%, 50%);
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 20;
+}
+
+.share {
+  border-top: 1px solid hsl(210, 14%, 53%);
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.share a {
+  background: hsl(34, 78%, 91%);
+  border: 1px solid hsl(182, 25%, 50%);
+  border-radius: 3px;
+  color: hsl(182, 25%, 50%);
+  display: inline-block;
+  margin: 5px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid hsl(0, 75%, 72%);
+  color: hsl(0, 75%, 72%);
+}
+
+#resume {
+	margin: 20px auto;
+	text-align: center;
+	position: relative;
+}
+
+#resume p {
+	color: hsl(182, 25%, 50%);
+	margin: 5px auto;
+	padding: 1px;
+	font-size: 10px;
+	font-weight: 3px;
+}
+
+header {
+	font-size: 70px;
+	font-family: 'Raleway' sans-serif;
+	color: hsl(182, 25%, 50%);
+	font-weight: normal;
+	text-align: center;
+	border-top: 3px dashed hsl(182, 25%, 50%);
+	border-bottom: 3px dashed hsl(182, 25%, 50%);
+	top: 50px;
+	width: 350px;
+}
+
+img {
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+    border-left: 2px solid hsl(210, 14%, 53%);
+	border-right: 2px solid hsl(210, 14%, 53%);
+    overflow: scroll;
+    height: 1024px;
+    width: 768px;
+
+}
